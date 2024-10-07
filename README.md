@@ -2,6 +2,7 @@
 Openstack is an open-source cloud computing platform that enables users to create and manage public and private clouds. It provides infrastructure as a service (IaaS), allowing users to provision and manage virtual machines and other resources in a scalable and flexible manner. Here’s an overview of its key components and features:
 
 ## Key Components
+```bash
 1. Nova: The compute service that manages virtual machines (VMs) and instances. It is responsible for provisioning and managing cloud resources.
 
 2. Neutron: The networking service that provides network connectivity as a service. It allows users to create and manage networks, subnets, routers, and other network resources.
@@ -20,7 +21,9 @@ Openstack is an open-source cloud computing platform that enables users to creat
 
 9. Ceilometer: The telemetry service that monitors and collects usage data for billing and reporting purposes.
 
-## Features
+```
+## ***Features***
+```bash
 Scalability: OpenStack can scale horizontally by adding more nodes to handle increased workloads.
 
 Flexibility: It supports various hypervisors (like KVM, VMware, and Hyper-V) and can run on different hardware configurations.
@@ -31,7 +34,8 @@ Multi-Tenancy: OpenStack allows multiple users to share resources while maintain
 
 APIs: OpenStack provides RESTful APIs for programmatic access, allowing developers to integrate cloud services into their applications.
 
-Use Cases
+```
+## **Use Cases**
 Public Clouds: Service providers use OpenStack to build public cloud services for customers.
 
 Private Clouds: Organizations deploy OpenStack in their data centers to create private clouds, providing on-demand resources to their teams.
