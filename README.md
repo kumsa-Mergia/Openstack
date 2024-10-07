@@ -1,23 +1,24 @@
-# OpenStack is an open-source cloud computing platform that enables users to create and manage public and private clouds. It provides infrastructure as a service (IaaS), allowing users to provision and manage virtual machines and other resources in a scalable and flexible manner. Here’s an overview of its key components and features:
+# OpenStack 
+Openstack is an open-source cloud computing platform that enables users to create and manage public and private clouds. It provides infrastructure as a service (IaaS), allowing users to provision and manage virtual machines and other resources in a scalable and flexible manner. Here’s an overview of its key components and features:
 
 ## Key Components
-Nova: The compute service that manages virtual machines (VMs) and instances. It is responsible for provisioning and managing cloud resources.
+1. Nova: The compute service that manages virtual machines (VMs) and instances. It is responsible for provisioning and managing cloud resources.
 
-Neutron: The networking service that provides network connectivity as a service. It allows users to create and manage networks, subnets, routers, and other network resources.
+2. Neutron: The networking service that provides network connectivity as a service. It allows users to create and manage networks, subnets, routers, and other network resources.
 
-Cinder: The block storage service that provides persistent storage volumes for instances. Users can create, attach, and manage block storage volumes.
+3. Cinder: The block storage service that provides persistent storage volumes for instances. Users can create, attach, and manage block storage volumes.
 
-Swift: The object storage service that provides scalable and redundant storage for unstructured data. It is often used for storing files, images, and backups.
+4. Swift: The object storage service that provides scalable and redundant storage for unstructured data. It is often used for storing files, images, and backups.
 
-Glance: The image service that stores and retrieves virtual machine images. Users can upload, discover, and manage images for use with Nova.
+5. Glance: The image service that stores and retrieves virtual machine images. Users can upload, discover, and manage images for use with Nova.
 
-Keystone: The identity service that provides authentication and authorization services for OpenStack. It manages users, projects, roles, and service endpoints.
+6. Keystone: The identity service that provides authentication and authorization services for OpenStack. It manages users, projects, roles, and service endpoints.
 
-Horizon: The dashboard that provides a web-based user interface for managing OpenStack services. Users can interact with OpenStack through a graphical interface.
+7. Horizon: The dashboard that provides a web-based user interface for managing OpenStack services. Users can interact with OpenStack through a graphical interface.
 
-Heat: The orchestration service that allows users to define and manage infrastructure as code using templates. It helps automate the deployment of applications and services.
+8. Heat: The orchestration service that allows users to define and manage infrastructure as code using templates. It helps automate the deployment of applications and services.
 
-Ceilometer: The telemetry service that monitors and collects usage data for billing and reporting purposes.
+9. Ceilometer: The telemetry service that monitors and collects usage data for billing and reporting purposes.
 
 ## Features
 Scalability: OpenStack can scale horizontally by adding more nodes to handle increased workloads.
